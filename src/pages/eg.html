@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Python Prime Number Finding Code</title>
+</head>
+<body>
+  <h1>Python Prime Number Finding Code</h1>
+  <pre><code>def is_prime(n):
+  """
+  Return True if n is prime, False otherwise.
+  """
+  if n < 2:
+    return False
+  for i in range(2, int(n ** 0.5) + 1):
+    if n % i == 0:
+      return False
+  return True
+</code></pre>
+</body>
+</html>

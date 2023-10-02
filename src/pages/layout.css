@@ -1,0 +1,122 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+.main{
+height: 100%;
+width: 100%;
+background:linear-gradient(rgb(157, 7, 157),rgb(255, 115, 206));
+position: absolute;
+}
+.form{
+width: 380px;
+height:510px;
+position: relative;
+margin: 6% auto;
+background: #fff;
+padding: 5px;
+border-radius: 10px;
+}
+.button{
+width: 220px;
+margin:35px auto;
+position: relative;
+box-shadow: 0 0 20px 10px #5513fd1f ;
+border-radius: 30px;
+}
+.top_button{
+padding:10px 33px;
+cursor: pointer;
+background: transparent;
+border:0;
+outline: none;
+position: relative;
+cursor: pointer;
+}
+#btn{
+top:0;
+left:0;
+position: absolute;
+width: 110px;
+height:100%;
+
+border-radius: 30px;
+transition: 0.5s ;
+}
+.top_button:hover{
+  font-size: 110%;
+  background: linear-gradient(to right,#9c55ff,#604bff);
+  border-radius: 30px;
+}
+.inputs{
+top:180px;
+position: absolute;
+width: 280px;
+transition: 0.5s;
+}
+.input_field{
+width: 100%;
+padding: 10px 0px;
+margin: 5px 0px;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 1px ;
+border-color: #999;
+border-style: solid;
+outline:none;
+background: transparent;
+
+}
+#first_name{
+  width: 45%;
+  margin-right: 25px;
+}
+#last_name{
+  width: 45% ;
+  
+}
+.message{
+  color: red;
+  font-size: smaller;
+  
+}
+.submit_login{
+width: 85%;
+padding:10px 30px;
+cursor: pointer;
+display: block;
+margin: auto;
+background: linear-gradient(to right,#9c55ff,#604bff);
+border: 0;
+outline: none;
+border-radius: 30px;
+}
+.check_box{
+margin:30px 10px 30px 0 ;
+}
+.message{
+  color: red;
+  font-size: smaller;
+  margin-top: 15px;
+  
+}
+span{
+color:#777 ;
+font-size: 12px;
+bottom: 2.5px;
+position: relative;
+display: inline-block;
+}
+#loginform{
+left:50px;
+}
+#signupform{
+left:50px;
+top: 110px;
+}
+.passmatch{
+  color: red;
+  font-size: smaller;
+}
